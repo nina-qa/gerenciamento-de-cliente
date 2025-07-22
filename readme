@@ -16,5 +16,8 @@ Este projeto foi criado como parte dos meus estudos práticos de QA com apoio de
 - Validações de e-mail e telefone
 - Exclusão lógica e física
 
-## Collection Postman
 
+📥 Faça o download da collection do Postman:
+[`clientes-api.postman_collection.json`](.Gerenciamento de clientes.postman_collection.json)
+
+Importe no seu Postman para testar todas as rotas da API.
