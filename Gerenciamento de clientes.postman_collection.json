@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "716002b7-83fc-4e22-8f69-cb400192ddbd",
+		"name": "Gerenciamento de clientes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46234903",
+		"_collection_link": "https://www.postman.com/docking-module-geoscientist-30156856/gerenciamento-de-clientes/collection/f05nc7d/gerenciamento-de-clientes?action=share&source=collection_link&creator=46234903"
+	},
+	"item": [
+		{
+			"name": "Retorna todos os clientes ativos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/clientes",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"clientes"
+					]
+				},
+				"description": "Gerenciamento de clientes"
+			},
+			"response": []
+		},
+		{
+			"name": "Retorna os detalhes de um cliente específico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/clientes/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"clientes",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Novo Cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"\",\r\n    \"email\": \"\",\r\n    \"telefone\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/clientes",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Inativar cliente",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/clientes/inativar/1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"clientes",
+						"inativar",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir cliente",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/clientes/1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"clientes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "http://localhost:3000",
+			"type": "default"
+		}
+	]
+}
