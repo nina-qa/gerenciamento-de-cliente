@@ -1,3 +1,17 @@
-🔗 Acesse a Collection do Postman: [Clique aqui](https://www.postman.com/gerenciamento-de-clientes/collection)
+## 📌 Projeto de Estudo - API de Clientes (CRUD com Node.js + Express)
 
-https://www.postman.com/docking-module-geoscientist-30156856/gerenciamento-de-clientes/collection/f05nc7d/gerenciamento-de-clientes?action=share&source=copy-link&creator=46234903
+Este projeto foi criado como parte dos meus estudos práticos de QA com apoio de IA (ChatGPT). O objetivo é aprofundar meu entendimento sobre:
+
+- Fluxo de requisições HTTP e APIs REST
+- Validação de dados na camada de back-end
+- Estrutura de uma API para apoiar cenários de testes manuais e automatizados
+
+🔧 Ferramentas utilizadas:
+- Node.js
+- Express
+- Body-parser
+
+📋 Funcionalidades:
+- Listar, buscar, adicionar, atualizar e excluir clientes
+- Validações de e-mail e telefone
+- Exclusão lógica e física
